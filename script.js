@@ -10,7 +10,7 @@ function menorMayor(){
     console.table(productos);
 }
 
-let opcion = prompt("Ingresa si deseas ordenar los productos según su precio (1-menor a mayor) (2-mayor a menor) (0-salir)");
+let opcion = prompt("Ingresa si deseas ordenar los productos según su precio \n1-Menor a mayor \n2-Mayor a menor \n0-Salir");
 
 while(opcion != 0){
     switch(opcion){
@@ -25,6 +25,6 @@ while(opcion != 0){
             break;
     }
 
-    opcion = prompt("Ingresa si deseas ordenar los productos según su precio (1-menor a mayor) (2-mayor a menor) (0-salir)");
+    opcion = prompt("Ingresa si deseas ordenar los productos según su precio \n1-Menor a mayor \n2-Mayor a menor \n0-Salir");
 }
 
